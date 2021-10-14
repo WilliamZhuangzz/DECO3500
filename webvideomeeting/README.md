@@ -8,7 +8,7 @@ You can have a look at the [demo](http://webrtc.dennis.is/)
 Run in your terminal
 
 ```bash 
-git clone git@github.com:webRTC/webrtc.io-demo.git
+git clone https://github.com/WilliamZhuangzz/DECO3500/tree/main/webvideomeeting
 ```
 
 ```bash 
