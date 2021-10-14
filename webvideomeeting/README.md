@@ -38,7 +38,7 @@ go to [localhost:8080](http://localhost:8080)
 click allow to see your camera and the connection will be made between your to open windows.
 
 
-##For instructions on how to start developing with webRTC.io
+##This project-demo is used by Deco3500 assignment, not for entreprise used. 
 
 
 
