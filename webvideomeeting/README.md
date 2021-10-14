@@ -40,9 +40,5 @@ click allow to see your camera and the connection will be made between your to o
 
 ##For instructions on how to start developing with webRTC.io
 
-go to [https://github.com/webRTC/webRTC.io](https://github.com/webRTC/webRTC.io) and read the instructions.
 
-Developed by:
-    [@dennismatensson](https://github.com/dennismartensson)
-    [@cavedweller](https://github.com/cavedweller)
-    [@sarenji](https://github.com/sarenji)
+
