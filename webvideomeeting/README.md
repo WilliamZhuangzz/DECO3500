@@ -12,7 +12,7 @@ git clone https://github.com/WilliamZhuangzz/DECO3500/tree/main/webvideomeeting
 ```
 
 ```bash 
-cd webrtc.io-demo
+cd webvideomeeting
 ```
 
 ```bash 
