@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.nav {
+    float: left;
+    height: 100%;
+    width: 25%;
+    background-color: #d3d3d3;
+}
+
+.type h2 {
+    margin-top: 5%;
+    margin-bottom: 10px;
+}
+
+
+
+.type ul {
+    /* margin-left: 5%; */
+    display: flex;
+    justify-content: space-around;
+    /* height: 70%; */
+}
+
+.type ul li {
+    /* float: left; */
+    /* height: 40%; */
+    width: 100px;
+    /* margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%; */
+}
+
+button {
+    /* float: left; */
+    height: 100%;
+    width: 100%;
+    display: block;
+    /* margin-top: 15%;
+    margin-left: 10%; */
+    border-radius: 20%;
+    border-color: transparent;
+    background: none;
+}
+
+button p {
+    font-size: 1.3em;
+}
+
+.type ul li img {
+    display: flex;
+    width: 100%;
+    margin-bottom: 12px;
+    background-color: darkgray;
+    /* height: 100%; */
+}
+
+.type ul li p {
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+}
+
+.level {
+    margin-top: 10px;
+}
+.level h2 {
+    margin-top: 10%;
+    
+}
+
+.level ul {
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.level ul li {
+    float: left;
+    width: 33%;
+}
+
+.news {
+    margin-top: 30px;
+}
+
+.news ul {
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.news ul li {
+    float: left;
+    width: 33%;
+}
+.news h2 {
+    margin-top: 10%;
+    margin-bottom: 10px;
+}
+
+li {
+    list-style: none;
+}
+
+.active img {
+    background-color: rgb(148, 211, 246)!important;
+    color: rgb(59, 164, 224);
+    font-weight: bold;
+}
+.imgdiv img{
+    margin-top: 5%;
+    margin-left: 2%;
+}
+.imgdiv1 img{
+    margin-top: 5%;
+    margin-left: 2%;}
+
+.preview h1 {
+    margin-left: 55%;
+}
+.create {
+    text-align: right;
+    margin-right: 50px;
+}
+.create button {
+    /* margin-left: 65%; */
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: rgb(182, 223, 240);
+    color: rgb(0, 0, 0);
+    height: 50px;
+    width: 100px;
+    display: inline-block;
+    font-size: large;
+    cursor: pointer;
+    
+}
+.create button:hover {
+    background-color: rgb(62, 133, 214);
+}
+.type1 select{
+    width: 80%;
+    font-size: x-large;
+    margin-top: 10%;
+    margin-left: 10%;
+    
+}
+.type2 select{
+    width: 80%;
+    font-size: x-large;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+body h2{margin-left: 10%;}
+.type1 h2{margin-top: 100px;}
+.type2 h2{margin-top: 100px;}
+
+
+
+
+
+#pac-input {
+background-color: #fff;
+font-family: Roboto;
+font-size: 15px;
+font-weight: 300;
+margin-left: 12px;
+padding: 0 11px 0 13px;
+text-overflow: ellipsis;
+width: 50%;
+height:5%;
+margin-top:1%;
+border:transparent;
+border-radius: 10px;
+box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+#pac-input:focus {
+border-color: #4d90fe;
+}
+

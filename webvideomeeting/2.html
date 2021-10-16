@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FIRE</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src = "js/index.js"></script>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+        
+    </head>
+
+    <body>
+        <div class = "nav">
+            <div class="type">
+                <h2>Room type</h2>
+                <ul>
+                    <li>
+                        <button  id = 'fire' class="fireaaaa active">
+                            <img src="images/sports_icon.png" alt="" style="padding: 10px;box-sizing: border-box;">
+                            <p>Sport Room</p>
+                        </button>
+                    </li>
+                    <li>
+                        <button  id='fire1'  class="fireaaaa">
+                            <img src="images/study_icon.png" alt="">
+                            <p>Study Room</p>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+            <div class="level fire-box">
+                <h2>Detail</h2>
+                <ul>
+                    <li><input type="radio" name="level" id="RPG"> RPG  </label></li>
+                    <li><input type="radio" name="level" id="Player VS Comp"> P vs C </label></li>
+                    <li><input type="radio" name="level" id="Player VS player"> P vs P </label></li>
+                </ul>
+            </div>
+            <div class="type1 fire-box" >
+                <h2>Sports Type</h2>
+                <select>
+                    <option value="Junp rope">Junp rope</option>
+                    <option value="Push up">Push up</option>
+                    <option value="Run">Run</option>
+                    <option value="Other">Other</option>
+                  </select>
+            </div>
+            <div class="type1 fire-box" >
+                <h2>Sports Goal</h2>
+                <select>
+                    <option value="20 min">20 min</option>
+                    <option value="30 min">30 min</option>
+                    <option value="60 min">60 min</option>
+                    <option value="Other">Other</option>
+                  </select>
+            </div>
+            <div class="news fire11-box" style="display: none">
+                <h2>Detail</h2>
+                <ul>
+                    <li><input type="radio" name="news" id="Online Lecture"> Lecture </label></li>
+                    <li><input type="radio" name="news" id="Study Room"> Study </label></li>
+                    <li><input type="radio" name="news" id="Other"> Other </label></li>
+                    
+                </ul>
+            </div>
+            <div class="type2 fire-box1" style="display: none">
+                <h2>Study Couse</h2>
+                <select>
+                    <option value="IT">IT</option>
+                    <option value="Business">Business</option>
+                    <option value="Economic">Economic</option>
+                    <option value="Math">Math</option>
+                    <option value="Other">Other</option>
+                  </select>
+            </div>
+            <div class="type2 fire-box1" style="display: none">
+                <h2>Study Goal</h2>
+                <select>
+                    <option value="20 min">20 min</option>
+                    <option value="30 min">30 min</option>
+                    <option value="60 min">60 min</option>
+                    <option value="Other">Other</option>
+                  </select>
+            </div>
+        </div>
+        
+        <div class = 'preview'>
+            <h1>preview</h1> 
+        </div>
+        
+        <div class = "imgdiv">
+            
+            <img src="images/1.png" alt="" height="70%" width="70%" >
+            <div class = 'create'>
+                <button>cancel</button> 
+                
+                <button onclick="jump()">create</button> 
+            </div>
+        </div>
+        <div class = "imgdiv1" style="display: none">
+            
+            <img src="images/2.png" alt="" height="70%" width="70%" >
+            <div class = 'create'>
+                <button onclick="jump()">create</button> 
+            </div>
+        </div>
+        
+        
+    </body>
+<script>
+    function jump(){
+        window.location.assign("3.html");           
+}
+        
+        </script>
+</html>
