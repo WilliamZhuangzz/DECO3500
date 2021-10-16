@@ -12,15 +12,11 @@ git clone https://github.com/WilliamZhuangzz/DECO3500/tree/main/webvideomeeting
 ```
 
 ```bash 
-cd webvideomeeting
-```
-
-```bash 
 npm install
 ```
 
 ```bash 
-cd site
+cd webvideomeeting
 ```
 
 ```bash 
