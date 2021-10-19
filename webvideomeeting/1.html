@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    <!-- <div class="container"><img class="img1" src="images/background.jpg";z-index:1></div> -->
     <div class="content">
         <div class="left">
             <div class="left-item-list">
@@ -41,22 +42,22 @@
         </div>
         <div class="right">
             <div class="top">
-                <img src="images/4.jpg" alt="">
+                <img src="/images/4.jpg" alt="">
                 <div class="cur-time">
                     <h2 id="hour">下午 5:03</h2>
                     <p id="all-time">2021年8月26日 星期四</p>
                 </div>
             </div>
-            <div class="cont">
-                <div class="vip-item">
-                    <img src="images/1.jpg" alt="" class="icon">
+            <div class="cont" >
+                <div class="vip-item" onclick="jump1()">
+                    <img src="images/2.jpg" alt="" class="icon" >
                     <span class="time">08 26 2021 18:00</span>
                     <img src="images/3.jpg" alt="" class="vip">
                 </div>
-                <div class="vip-item">
-                    <img src="images/2.jpg" alt="" class="icon">
+                <div class="vip-item" id="item"onclick="jump()">
+                    <img src="images/1.jpg" alt="" class="icon">
                     <span class="time">08 26 2021 19:00</span></span>
-                    <img src="images/3.jpg" alt="" class="vip">
+                    <img src="images/3.jpg" alt="" class="vip" >
                 </div>
             </div>
         </div>
@@ -71,7 +72,7 @@
 
                 <input class='div-input' type="text" placeholder="Enter Room Number">
             </div>
-            <div class="div-footer" id="foot" onclick="jump()">
+            <div class="div-footer" onclick="jump1()",id="foot">
                 Confirm
             </div>
         </div>
@@ -92,7 +93,7 @@
                 <input id="meeting" type="datetime-local" value="2014-01-13" />
 
             </div>
-            <div class="div-footer" id="foot1" onclick="jump()">
+            <div class="div-footer" id="foot1" ">
                 Confirm
             </div>
         </div>
@@ -101,6 +102,9 @@
     <script>
         function jump() {
             window.location.assign("2.html");
+        }
+        function jump1() {
+            window.location.assign("3.html");
         }
         function time() {
             dt = new Date();
