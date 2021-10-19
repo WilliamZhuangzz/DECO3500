@@ -14,13 +14,29 @@
     <div class="content">
         <div class="left">
             <div class="left-item-list">
-                <div class="left-item"><img src="images/Create_Room.png" alt="" onclick="jump()"><span>Create Room</span></div>
+                <div class="left-item">
+                    <div class="btn-pop" onclick="jump()">
+                        <img src="images/Create_Room.png" alt="">
+                        <span>Create Room</span>
+                    </div>
+                </div>
+
             </div>
             <div class="left-item-list">
-                <div class="left-item"><img src="images/Join_Room.png" alt="" onclick="jump()"><span>Join Room</span></div>
+                <!-- <div class="left-item"><img src="images/Join Room.png" alt="" ><span>Join Room</span></div> -->
+                <div class="left-item">
+                    <button class="btn-pop" onclick="show()"><img src="images/Join_Room.png"><span>Join
+                            Room</span></button>
+                </div>
+
             </div>
             <div class="left-item-list">
-                <div class="left-item"><img src="images/Schedule_Room.png" alt=""><span>Schedule Room</span></div>
+                <!-- <div class="left-item"><img src="images/Schedule Room.png" alt=""><span>Schedule Room</span></div> -->
+                <div class="left-item">
+                    <button class="btn-pop1" onclick="show1()"><img src="images/Schedule_Room.png"><span>Schedule
+                            Room</span></button>
+                </div>
+
             </div>
         </div>
         <div class="right">
@@ -45,7 +61,47 @@
             </div>
         </div>
     </div>
+    <div id="background-pop">
+        <div id="div-pop">
+            <div class="div-top">
+                <span id="close-button">×</span>
+                <div>Join Room</div>
+            </div>
+            <div class="div-content">
+
+                <input class='div-input' type="text" placeholder="Enter Room Number">
+            </div>
+            <div class="div-footer" id="foot" onclick="jump()">
+                Confirm
+            </div>
+        </div>
+    </div>
+    <div id="background-pop1">
+        <div id="div-pop1">
+            <div class="div-top1">
+                <span id="close-button1">×</span>
+                <div>Schedule Room</div>
+            </div>
+            <div class="div-content1">
+                <p>Room Type</p>
+                <select>
+                    <option value="Sports Room">Sports Room</option>
+                    <option value="Study Room">Study Room</option>
+                </select>
+                <p>Schedule Time:</p>
+                <input id="meeting" type="datetime-local" value="2014-01-13" />
+
+            </div>
+            <div class="div-footer" id="foot1" onclick="jump()">
+                Confirm
+            </div>
+        </div>
+    </div>
+    </div>
     <script>
+        function jump() {
+            window.location.assign("2.html");
+        }
         function time() {
             dt = new Date();
             var y = dt.getYear() + 1900;
@@ -72,12 +128,43 @@
             t = setTimeout(time, 1000); //设定定时器，循环执行           
         }
         time();
+        var div = document.getElementById('background-pop');
+        var close = document.getElementById('close-button');
+        var close3 = document.getElementById('foot');
+        function show() {
+            div.style.display = "block";
+        }
+        close.onclick = function close() {
+            div.style.display = "none";
+        }
+
+        var div1 = document.getElementById('background-pop1');
+        var close1 = document.getElementById('close-button1');
+        var close2 = document.getElementById('foot1');
+        var item12 = document.getElementById('item');
+        function show1() {
+            div1.style.display = "block";
+        }
+        close1.onclick = function close() {
+            div1.style.display = "none";
+        }
+        close2.onclick = function close() {
+            div1.style.display = "none";
+            item12.style.display = "flex";
+        }
+        close3.onclick = function close() {
+            div.style.display = "none";
+        }
+        window.onclick = function close(e) {
+            if (e.target == div1) {
+                div1.style.display = "none";
+            }
+            if (e.target == div) {
+                div.style.display = "none";
+            }
+        }
+
     </script>
 </body>
-<script>
-function jump(){
-    window.location.assign("2.html");
-}
 
-</script>
 </html>
