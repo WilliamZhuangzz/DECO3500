@@ -1,6 +1,6 @@
 # DECO3500
-DEC03500
-#
+Weekly Process Link：https://miro.com/app/board/o9J_lohviDY=/?invite_link_id=200923672091
+# We put our wekkly process into miro board and the link is given above.
 #webmeeting exercise/study room
 ==============
 ##Instructions on how to setup the prototype:
